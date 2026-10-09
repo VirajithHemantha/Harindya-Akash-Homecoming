@@ -26,8 +26,8 @@ const INVITATION = {
     googleMapsLink: "https://maps.google.com/?q=Royal+Rest+House,+Peradeniya",
   },
   rsvpContacts: [
-    "Mihiri: 0719471462",
-    "Suneth: 0717987004",
+    "Akash - 071 639 2469",
+    "Pawani - 0765584662",
   ],
 } as const;
 
@@ -691,8 +691,8 @@ export default function HomecomingInvitation() {
                 <div className="absolute bottom-1/4 right-10 w-1.5 h-1.5 bg-[#D4AF37] rounded-full animate-pulse delay-500 blur-[1px]" />
                 <div className="absolute bottom-10 left-1/3 w-1 h-1 bg-[#8B0000] rounded-full animate-pulse delay-200" />
               </div>
-              <div className="absolute top-0 left-0 w-64 h-64 bg-[#8B0000]/10 blur-[120px] rounded-full pointer-events-none" />
-              <div className="absolute bottom-0 right-0 w-80 h-80 bg-[#8B0000]/15 blur-[120px] rounded-full pointer-events-none" />
+              <div className="absolute top-0 left-0 w-64 h-64 bg-[radial-gradient(circle,rgba(139,0,0,0.1)_0%,transparent_70%)] rounded-full pointer-events-none" />
+              <div className="absolute bottom-0 right-0 w-80 h-80 bg-[radial-gradient(circle,rgba(139,0,0,0.15)_0%,transparent_70%)] rounded-full pointer-events-none" />
               
               <div className="container mx-auto px-6 max-w-4xl relative z-10 text-center">
                 
@@ -770,7 +770,7 @@ export default function HomecomingInvitation() {
                        </div>
                     </div>
 
-                    {/* Node 2: Poruwa Ceremony */}
+                    {/* Node 2: Welcome */}
                     <div className="relative flex items-center gap-6 md:gap-8">
                       <div className="w-14 h-14 md:w-16 md:h-16 rounded-full border border-[#D4AF37] bg-[#1A1A1A] flex items-center justify-center shrink-0 z-10 shadow-[0_0_20px_rgba(212,175,55,0.4)] overflow-hidden">
                         <Flower2 className="w-6 h-6 md:w-8 md:h-8 text-[#D4AF37]" strokeWidth={1.5} />
@@ -833,13 +833,13 @@ export default function HomecomingInvitation() {
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 0.3, scale: 1 }}
                 transition={{ duration: 3, repeat: Infinity, repeatType: "reverse" }}
-                className="absolute -top-24 -right-24 w-96 h-96 bg-[#8B0000] blur-[120px] rounded-full pointer-events-none"
+                className="absolute -top-24 -right-24 w-96 h-96 bg-[radial-gradient(circle,rgba(139,0,0,1)_0%,transparent_70%)] rounded-full pointer-events-none"
               />
               <motion.div
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 0.2, scale: 1 }}
                 transition={{ duration: 4, repeat: Infinity, repeatType: "reverse", delay: 1 }}
-                className="absolute -bottom-24 -left-24 w-96 h-96 bg-[#D4AF37] blur-[120px] rounded-full pointer-events-none"
+                className="absolute -bottom-24 -left-24 w-96 h-96 bg-[radial-gradient(circle,rgba(212,175,55,1)_0%,transparent_70%)] rounded-full pointer-events-none"
               />
 
               <div className="w-full max-w-[1200px] px-6 flex flex-col items-center text-center relative z-10">
@@ -981,7 +981,7 @@ export default function HomecomingInvitation() {
                               <Clock className="w-5 h-5 text-[#D4AF37]" />
                             </div>
                             <div className="space-y-1">
-                              <h4 className="text-[#E0E0E0] font-bold text-[10px] uppercase tracking-[0.5em] font-cinzel">The Poruwa Ceremony</h4>
+                              <h4 className="text-[#E0E0E0] font-bold text-[10px] uppercase tracking-[0.5em] font-cinzel">The Homecoming</h4>
                               <p className="text-xl md:text-2xl text-[#E0E0E0] font-cinzel leading-relaxed tracking-wide font-bold">
                                 {INVITATION.time.ceremony}
                               </p>
@@ -1062,8 +1062,8 @@ export default function HomecomingInvitation() {
                 <div className="absolute bottom-1/4 right-20 w-1.5 h-1.5 bg-[#D4AF37] rounded-full animate-pulse delay-300" />
                 <div className="absolute top-10 right-1/4 w-1 h-1 bg-[#8C8C8C] rounded-full animate-pulse delay-150" />
               </div>
-              <div className="absolute top-0 right-0 w-80 h-80 bg-[#8B0000]/20 blur-[120px] rounded-full pointer-events-none" />
-              <div className="absolute bottom-0 left-0 w-80 h-80 bg-[#8B0000]/20 blur-[120px] rounded-full pointer-events-none" />
+              <div className="absolute top-0 right-0 w-80 h-80 bg-[radial-gradient(circle,rgba(139,0,0,0.2)_0%,transparent_70%)] rounded-full pointer-events-none" />
+              <div className="absolute bottom-0 left-0 w-80 h-80 bg-[radial-gradient(circle,rgba(139,0,0,0.2)_0%,transparent_70%)] rounded-full pointer-events-none" />
 
               <div className="container mx-auto px-6 max-w-4xl flex flex-col items-center relative z-10 w-full">
                 
@@ -1103,7 +1103,7 @@ export default function HomecomingInvitation() {
                   className="relative w-full max-w-[500px] bg-gradient-to-b from-[#111111] to-[#1A1A1A] p-8 md:p-12 shadow-[0_0_40px_rgba(212,175,55,0.15)] rounded-[2rem] border border-[#D4AF37]/30 flex flex-col items-center"
                 >
                   {/* Subtle top left glow */}
-                  <div className="absolute top-0 left-0 w-32 h-32 bg-[#8B0000]/40 blur-[60px] rounded-tl-[2rem] pointer-events-none" />
+                  <div className="absolute top-0 left-0 w-32 h-32 bg-[radial-gradient(circle,rgba(139,0,0,0.4)_0%,transparent_70%)] rounded-tl-[2rem] pointer-events-none" />
 
                   <h3 className="font-playball text-4xl md:text-5xl text-[#D4AF37] mb-4 text-center drop-shadow-sm">RSVP Confirmation</h3>
                   
@@ -1228,8 +1228,8 @@ export default function HomecomingInvitation() {
                 <div className="absolute bottom-1/3 left-1/4 w-2 h-2 bg-[#D4AF37] rounded-full animate-pulse delay-300" />
                 <div className="absolute top-20 left-20 w-1 h-1 bg-[#8C8C8C] rounded-full animate-pulse delay-150" />
               </div>
-              <div className="absolute top-0 left-0 w-80 h-80 bg-[#8B0000]/20 blur-[120px] rounded-full pointer-events-none" />
-              <div className="absolute bottom-0 right-0 w-96 h-96 bg-[#8B0000]/15 blur-[150px] rounded-full pointer-events-none" />
+              <div className="absolute top-0 left-0 w-80 h-80 bg-[radial-gradient(circle,rgba(139,0,0,0.2)_0%,transparent_70%)] rounded-full pointer-events-none" />
+              <div className="absolute bottom-0 right-0 w-96 h-96 bg-[radial-gradient(circle,rgba(139,0,0,0.15)_0%,transparent_70%)] rounded-full pointer-events-none" />
 
               <div className="container mx-auto px-6 max-w-4xl flex flex-col items-center relative z-10 w-full">
                 
@@ -1365,8 +1365,8 @@ export default function HomecomingInvitation() {
                 <div className="absolute top-1/2 right-1/4 w-2 h-2 bg-[#8C8C8C] rounded-full animate-pulse delay-300" />
                 <div className="absolute bottom-1/4 left-1/3 w-1 h-1 bg-[#D4AF37] rounded-full animate-pulse delay-150" />
               </div>
-              <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#8B0000]/20 blur-[150px] rounded-full pointer-events-none" />
-              <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[#8B0000]/20 blur-[150px] rounded-full pointer-events-none" />
+              <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[radial-gradient(circle,rgba(139,0,0,0.2)_0%,transparent_70%)] rounded-full pointer-events-none" />
+              <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[radial-gradient(circle,rgba(139,0,0,0.2)_0%,transparent_70%)] rounded-full pointer-events-none" />
 
               <div className="container mx-auto px-6 max-w-5xl text-center relative z-10 flex flex-col items-center">
                 

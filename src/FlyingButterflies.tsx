@@ -23,7 +23,7 @@ export function FlyingButterflies() {
       return;
     }
 
-    const count = isMobile ? 8 : 16;
+    const count = isMobile ? 4 : 8;
     const newButterflies = Array.from({ length: count }).map((_, i) => {
       const pathLength = 6;
       const xPath = Array.from({ length: pathLength }).map(() => Math.random() * 120 - 10);
@@ -72,7 +72,7 @@ export function FlyingButterflies() {
           >
           <motion.div
             animate={{ scaleX: [1, 0.2, 1] }}
-            transition={{ duration: 0.15 + Math.random() * 0.1, repeat: Infinity, ease: "easeInOut" }}
+            transition={{ duration: 0.3 + Math.random() * 0.2, repeat: Infinity, ease: "easeInOut" }}
           >
             <div aria-hidden="true" className="pointer-events-none select-none drop-shadow-md" style={{ width: "55px", height: "55px" }}>
             <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 350 350" width="350" height="350" preserveAspectRatio="xMidYMid meet" style={{ width: "100%", height: "100%", transform: "translate3d(0px, 0px, 0px)" }}>
