@@ -21,7 +21,7 @@ const INVITATION = {
   },
   venue: {
     name: "Royal Rest House, Peradeniya",
-    city: "Peradeniya",
+    city: "Kandy",
     mapQuery: "Royal Rest House, Peradeniya",
     googleMapsLink: "https://maps.google.com/?q=Royal+Rest+House,+Peradeniya",
   },
@@ -32,7 +32,7 @@ const INVITATION = {
 } as const;
 
 const backgroundMusic = "/Nim Him Sewwa  Romantic Live Violin & Piano Cover  Shahen Thilakaratne.mp3";
-const googleScriptUrl = "https://script.google.com/macros/s/AKfycbwiv-SlaxoMXmHz7jhAJNmhST6eP0gnTPQKTC-Yqk_rfnlXK1tX3X6lLPZGZ7qm1cKj/exec";
+const googleScriptUrl = "https://script.google.com/macros/s/AKfycbwcajHelaqARkvE1KU8wHoPGpaXiI5zFqBHJWz694WKc3B_LJs68Wr8HkgCMBOufIQ/exec";
 
 const publicImagePath = (fileName: string) => `/images/${fileName.replaceAll(" ", "%20")}`;
 
