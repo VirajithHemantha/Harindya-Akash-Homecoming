@@ -2,7 +2,6 @@ const fs = require('fs');
 
 let content = fs.readFileSync('src/App.tsx', 'utf8');
 
-// The start of Venue Location Section
 const venueStart = `            {/* Venue Location Section */}
             <section className="relative py-28 md:py-48 bg-gradient-to-b from-[#111111] to-[#1A1A1A] overflow-hidden">`;
 
